@@ -3,7 +3,8 @@ TUGAS MODUL 2
 1. Nama aplikasi "The Cashier"
 2. Menghitung jumlah jasa dan barang yang digunakan
 3.  
-{
+
+        {
         private int id;
         public string title { get; set; }
         public int quantity { get; set; }
@@ -42,9 +43,10 @@ TUGAS MODUL 2
             return subtotal;
         }  
         
-       // deklarasi method yang digunakan
+// deklarasi method yang digunakan //
         
-     
+4.
+         
          public partial class MainWindow : Window
     
         private Calculator calculator;
@@ -70,8 +72,10 @@ TUGAS MODUL 2
             listBox.Items.Refresh();
         }
     }
-        //menampilkan data yang telah di input sebelumnya
+    
+// menampilkan data yang telah di input sebelumnya //
          
+5.
     
         private List<Item> listItem;
         private double total = 0;
@@ -93,4 +97,4 @@ TUGAS MODUL 2
             return listItem;
         }
     
- // melakukan operasi perhitungan data dengan method yang dimasukkan
+// melakukan operasi perhitungan data dengan method yang dimasukkan
