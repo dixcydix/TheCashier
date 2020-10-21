@@ -48,7 +48,7 @@ TUGAS MODUL 2
 4.
          
          public partial class MainWindow : Window
-    
+        {
         private Calculator calculator;
         public MainWindow()
         {
@@ -71,7 +71,7 @@ TUGAS MODUL 2
 
             listBox.Items.Refresh();
         }
-    }
+        }
     
 // menampilkan data yang telah di input sebelumnya //
          
