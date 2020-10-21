@@ -2,8 +2,8 @@ TUGAS MODUL 2
 
 1. Nama aplikasi "The Cashier"
 2. Menghitung jumlah jasa dan barang yang digunakan
-3.  
-
+3.
+        
         {
         private int id;
         public string title { get; set; }
